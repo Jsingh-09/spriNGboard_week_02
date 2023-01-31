@@ -3,8 +3,7 @@
 using namespace std;
 
 ////////////////////////////////
-// ADD FIZZBUZZ FUNCTION HERE //
-////////////////////////////////
+// ADD FIZZBUZZ FUNCTION HE//
 
 int main ()
 {
