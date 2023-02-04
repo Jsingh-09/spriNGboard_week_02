@@ -7,16 +7,18 @@ using namespace std;
 
 int64_t fact(int N)
 {
-  //////////////////////////////////////////
-  // INSERT ITERATIVE IMPLEMENTATION HERE //
-  //////////////////////////////////////////
+  int result = 1;
+  for ( int i =2; i <= N; i++){
+    result *= i;
+  }
+  return result;
 
-  // Pay attention to the return type!
 }
 
 int main ()
 {
-  for (int N=0; N<20; ++N)
+  //25 Factorials
+  for (int N=0; N<25; ++N)
   {
     auto start = chrono::high_resolution_clock::now();
 

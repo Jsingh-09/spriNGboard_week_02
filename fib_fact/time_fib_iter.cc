@@ -7,9 +7,15 @@ using namespace std;
 
 int fib(int N)
 {
-  //////////////////////////////////////////
-  // INSERT ITERATIVE IMPLEMENTATION HERE //
-  //////////////////////////////////////////
+  int n1 =0;
+  int n2 =1;
+  int n3;
+  for (int i = 0; i < N; i++){
+    n3 = n1+n2;
+    n1 = n2;
+    n2 = n3;
+  }
+  return n1;
 }
 
 int main ()
